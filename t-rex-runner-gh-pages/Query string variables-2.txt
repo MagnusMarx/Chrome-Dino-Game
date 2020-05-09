@@ -1,0 +1,12 @@
+Query string documentation
+ variables:
+1. scr  -  set this to .01 or .1 to make the score go crazy
+a. default value is 1000 / 60
+2. ivc - set to 1 to go through cacti and birds
+a. there is no default value for this
+3. asa_clrt set to whatever to make the clear score higher
+a. og set to 3000
+4. asa_pd set to whatever to raise/lower the runner speed 
+a. og set to 6
+5. asa_cc set to whatever to raise/lower the runner acceleration
+a. og set to 0.001
